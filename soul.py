@@ -135,7 +135,7 @@ def process_attack_command(message):
                                           f"समय: {duration} सेकंड!", parse_mode='Markdown')
         
         # New reply after attack launch with your updated message
-        bot.send_message(message.chat.id, "⚠️ If you do not provide feedback, you may be banned from the group. plz provide feedback @GOD_UNIVERSE_OWNER")
+        bot.send_message(message.chat.id, "⚠️ If you do not provide feedback, you may be banned from the group. plz provide feedback @BAIGAN44 ")
 
     except Exception as e:
         logging.error(f"Error processing attack command: {e}")
